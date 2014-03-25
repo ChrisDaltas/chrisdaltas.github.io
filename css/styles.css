@@ -266,12 +266,12 @@ ul.social li a:hover img {
   margin-bottom: 25px;
 }
 ul.social li.link-twitter a {
-  background: url(images/icon_twitter.svg) no-repeat center 0px;
+  background: url(/images/icon_twitter.svg) no-repeat center 0px;
   background-size: 37px;
   color: #28aae1 !important;
 }
 ul.social li.link-dribbble a {
-  background: url(images/icon_dribbble.svg) no-repeat center 0px;
+  background: url(/images/icon_dribbble.svg) no-repeat center 0px;
   background-size: 30px;
   color: #ea4c89 !important;
 }
@@ -279,17 +279,17 @@ ul.social li a:hover {
   text-indent: 0;
 }
 ul.social li.link-instagram a {
-  background: url(images/icon_instagram.svg) no-repeat center 0px;
+  background: url(/images/icon_instagram.svg) no-repeat center 0px;
   background-size: 30px;
   color: #326189 !important;
 }
 ul.social li.link-mail a {
-  background: url(images/icon_mail.svg) no-repeat center 0px;
+  background: url(/images/icon_mail.svg) no-repeat center 0px;
   background-size: 30px;
   color: #dd4951 !important;
 }
 ul.social li.link-behance a {
-  background: url(images/icon_behance.svg) no-repeat center 0px;
+  background: url(/images/icon_behance.svg) no-repeat center 0px;
   background-size: 30px;
   color: #005CFF !important;
 }
