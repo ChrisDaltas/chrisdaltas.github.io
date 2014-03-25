@@ -210,9 +210,17 @@ section#intro a {
   border-bottom: 1px dotted #ccc;
   padding-bottom: 5px;
 }
-section#intro a.link-focus:hover {
-  color: #fe4444;
-  border-color: #fe4444;
+section#intro a.link-green:hover {
+  color: #09dd2c;
+  border-color: #09dd2c;
+}  
+section#intro a.link-black:hover {
+  color: #000000;
+  border-color: #000000;
+}  
+section#intro a.link-red:hover {
+  color: #D62618;
+  border-color: #D62618;
 }  
 section#intro a.link-twitter:hover {
   color: #28aae1;
@@ -248,9 +256,11 @@ ul.social li a {
   font-size: 14px;
   text-align: center;
 }
+
 ul.social li a:hover {
   background: transparent !important;
 }
+
 ul.social li a:hover img {
   height: 30px !important;
   margin-bottom: 25px;
