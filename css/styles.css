@@ -263,11 +263,9 @@ ul.social li a {
   font-size: 14px;
   text-align: center;
 }
-
 ul.social li a:hover {
   background: transparent !important;
 }
-
 ul.social li a:hover img {
   height: 30px !important;
   margin-bottom: 25px;
