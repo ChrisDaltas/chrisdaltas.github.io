@@ -118,28 +118,6 @@ textarea {
 /* font-family: 'Rancho', cursive; */
 
 
-
-@font-face {
-  font-family: 'Bariol_Regular';
-  src: url('/fonts/Bariol_Regular.eot');
-  src: local('â˜º'), url('/fonts/Bariol_Regular.woff') format('woff'), url('/fonts/Bariol_Regular.ttf') format('truetype'), url('/fonts/Bariol_Regular.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Bariol_Regular_Italic';
-  src: url('/fonts/Bariol_Regular_Italic.eot');
-  src: local('â˜º'), url('/fonts/Bariol_Regular_Italic.woff') format('woff'), url('/fonts/Bariol_Regular_Italic.ttf') format('truetype'), url('/fonts/Bariol_Regular_Italic.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Bariol_Bold';
-  src: url('/fonts/Bariol_Bold.eot');
-  src: local('â˜º'), url('/fonts/Bariol_Bold.woff') format('woff'), url('/fonts/Bariol_Bold.ttf') format('truetype'), url('/fonts/Bariol_Bold.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 a {
   text-decoration: none;
   color: ;
@@ -164,25 +142,25 @@ h6 {
   float: right;
 }
 body {
-  font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #999;
   font-weight: normal;
 }
 h1 {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 45px;
   font-weight: 900;
 }
 h2 {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "abel", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
   font-weight: 500;
 }
 
 h3 {
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+    font-family: "abel", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 
 /* ===================================
@@ -196,7 +174,7 @@ header#header {
 }
 
 header#header .hero {
-  margin: 20px;
+  margin: 30px;
   border-radius: 100%;
   border:10px solid #fff;
 }
@@ -211,7 +189,7 @@ header#header h1 {
 header#header h2 {
   font-size: 15px;
   color: #9f9f9f;
-  font-family: "Bariol_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Abel", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 10px 0 0 0;
   font-weight: normal;
 }
@@ -328,31 +306,33 @@ CLIENT WORK
 ===================================== */
 
 section.clients {
-  padding: 100px 15px;
+  padding: 80px 15px;
 }
 section.clients .column {
-  max-width: 600px;
+  max-width: 660px;
   margin: 0 auto;
 }
 section.clients .hero {
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 section.clients h2 {
   font-size: 30px;
   margin: 0;
 }
 section.clients h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   margin-bottom: 20px;
 }
 section.clients p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: left;
 }
 section.clients p.dribbble {
-  margin-top: 60px;
+  font-family: 'abel';
+  font-size: 18px;
+  margin-top: 20px;
   line-height: 24px;
   text-align: center;
 }
@@ -398,24 +378,45 @@ section.clients p.dribbble:hover img.arrow {
   transition-timing-function: linear;
 }
 
-
-/* SEBONIC FINANCIAL */
+/* DISHSNAP */
 
 section#dishsnap {
-  background: #f5f5f5;
+  background: #e06d5e;
   text-align: center;
 }
+
 section#dishsnap h2 {
   color: #ed1d1d;
 }
 section#dishsnap h3 {
-  color: #878787;
+  color: #fbdcd8;
 }
 section#dishsnap p {
-  color: #9f9f9f;
+  color: #fbdcd8;
 }
 section#dishsnap a {
-  color: #ff8585;
+  color: #fbdcd8;
+}
+
+/* SEBONIC FINANCIAL */
+
+
+section#sebonic {
+  background: #fcead5;
+  text-align: center;
+}
+section#sebonic h2 {
+  font-family: 'Yellowtail', cursive;
+  color: #675743;
+}
+section#sebonic h3 {
+  color: #7f6c55;
+}
+section#sebonic p {
+  color: #7f6c55;
+}
+section#sebonic a {
+  color: #ad6c29;
 }
 
 
@@ -549,7 +550,7 @@ footer#footer p {
   color: #5e5e5e;
 }
 footer#footer p a {
-  font-family: "Bariol_bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #5e5e5e;
   border-bottom: 1px dotted #5e5e5e;
   padding-bottom: 3px;
