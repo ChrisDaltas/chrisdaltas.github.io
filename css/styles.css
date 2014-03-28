@@ -239,8 +239,8 @@ section#intro a.link-dribbble:hover {
   border-color: #ea4c89;
 }
 section#intro a.link-instagram:hover {
-  color: #326189;
-  border-color: #326189;
+  color: #000000;
+  border-color: #000000;
 }
 ul.social {
   list-style: none;
