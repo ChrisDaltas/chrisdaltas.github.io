@@ -338,8 +338,7 @@ section.clients p.dribbble {
 }
 section.clients p.dribbble img.dribbble {
   vertical-align: baseline;
-  height: 15px;
-  width: 15px;
+  height: 40px;
   margin-right: 10px;
   position: relative;
   top: 2px;
